@@ -1,0 +1,39 @@
+.rounded-button {
+    -fx-font-family: "Press Start 2P", sans-serif;
+    -fx-background-radius: 20;
+    -fx-font-family: 'Lobster', cursive;
+    -fx-min-width: 100px;
+    -fx-min-height: 50px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 2, 2, 2, 1);
+    -fx-text-fill: lightgreen;
+    -fx-background-color: grey;
+    -fx-padding: 15;
+    -fx-wrap-text: true;
+}
+
+.rounded-textfield {
+    -fx-background-radius: 20;
+    -fx-font-family: 'Lobster', cursive;
+    -fx-min-width: 100px;
+    -fx-min-height: 50px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 2, 2, 2, 1);
+    -fx-text-inner-color: #3366cc;
+    -fx-prompt-text-fill: green;
+    -fx-padding: 15;
+}
+
+.label {
+    -fx-background-radius: 20;
+    -fx-text-alignment: center;
+    -fx-font-family: 'Roboto Light';
+    -fx-padding: 15;
+    -fx-wrap-text: true;
+    -fx-max-width: 300;
+    -fx-font-size: 18;
+    -fx-text-inner-color: white;
+}
+
+.borderPanes {
+    -fx-padding: 40;
+    -fx-background-color: #3366cc;
+}
